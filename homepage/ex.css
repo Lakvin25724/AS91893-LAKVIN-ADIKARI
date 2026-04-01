@@ -1,0 +1,428 @@
+
+
+body {
+
+ font-family: 'Arial', sans-serif;
+
+}
+
+#page_container {
+
+ width: 1700px;
+
+ margin: 0 auto;
+
+ border: 1px solid black;
+
+ box-shadow: 0px 0px 48px 16px rgba(0, 0, 0, 0.175);
+
+}
+
+header {
+
+  background: linear-gradient(to right, darkblue, lightblue);
+
+ padding-bottom: 250px;
+
+}
+
+#logo {
+
+ width: 200px;
+
+ float: right;
+
+ padding-right:200px;
+
+  padding-top: 15px;
+}
+
+#page_title {
+
+ width: 1000px;
+
+ float: left;
+
+ text-align: center;
+
+ padding-left: 120px;
+
+ padding-top: 60px;
+
+}
+
+#page_title h1 {
+
+ font-size: 50px;
+ color: #ffffff;
+
+ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+nav {
+
+ clear: both;
+ text-align: center;
+
+}
+
+nav ul {
+
+ list-style-type: none;
+
+ margin: 0;
+
+ padding: 0;
+
+ overflow: hidden;
+
+ background-color: rgb(0, 0, 0);
+ box-shadow: #a8e8fc;
+
+}
+
+nav li {
+
+ display: inline-block;
+
+
+}
+
+nav li a {
+
+ display: block;
+
+ text-decoration: none;
+
+ text-align: center;
+
+ padding: 14px 90px;
+
+ font-size: 20px;
+
+ display: flex;
+
+ color: rgb(122, 193, 226);
+
+}
+a:hover{
+  text-shadow: 0 0 10px white;
+}
+nav a {
+  margin: 0 50px;
+}
+#intro {
+
+ background: black url(/QTown_26/resources/queenstown-late-night.jpg) no-repeat center;
+
+ background-size: cover;
+
+ padding: 300px 0;
+
+}
+
+#intro_block {
+
+ text-align: center;
+
+ background-color: rgba(0, 0, 0, 0.175);
+
+ padding-top: 10px;
+
+ width: 1100px;
+
+ margin-left: 290px;
+
+ color: #ffffff;
+
+ border: 1px solid black;
+
+}
+
+.button {
+
+ color: #ffffff;
+
+ font-size: 25px;
+
+ margin: 30px 5px;
+
+ padding: 15px 50px;
+
+ border: 2px solid #ffffff;
+
+}
+
+
+
+#about_queenstown {
+
+
+ overflow: hidden;
+
+ padding-bottom: 5px;
+
+}
+
+#q_town_intro {
+
+margin-left: 5px;
+
+ float: left;
+
+ width: 900px;
+
+padding-left: 10px;
+
+}
+
+#q_town_intro p {
+
+ font-size: 14px;
+
+text-align: justify;
+
+}
+
+#lake_wakatipu_image {
+
+width: 750px;
+
+ float: left;
+
+ padding-top: 10px;
+
+ margin-left: 20px;
+
+}
+
+#lake_wakatipu_image img {
+
+ width: 750px;
+
+}
+
+.heading {
+
+ text-align: center;
+
+ font-size: 30pt;
+
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background: #06283D;
+  color: white;
+}
+
+footer ul {
+  list-style: none;
+  margin-top: 10px;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+
+#queenstown_links {
+
+ width: 400px;
+
+ float: left;
+
+
+}
+
+#queenstown_links h4 {
+
+ padding-left: 40px;
+
+}
+
+#menu h4 {
+
+ padding-left: 40px;
+
+}
+
+#menu {
+
+ width: 400px;
+
+ float: left;
+
+ padding-left: 100px;
+
+}
+
+#socials {
+
+ width: 400px;
+
+ float: left;
+
+ padding-left: 100px;
+
+}
+
+#socials ul {
+
+ padding: 0;
+
+ list-style-type: none;
+
+}
+
+#socials li {
+
+ padding: 0 12px 0 0;
+
+ display: inline;
+
+ }
+
+#socials img {
+  width: 40px;
+  height: 40px;
+}
+
+img {
+    width: 300px;
+    height: 200px;
+
+}
+#header2 {
+
+ background-color: #ff0000;
+
+ padding-bottom: 150px;
+ position: fixed;
+
+}
+
+#logo2 {
+
+ width: 200px;
+
+ float: left;
+
+ padding: 15px 0 20px 150px;
+
+}
+
+#page_title2 {
+
+ width: 1000px;
+
+ float: left;
+
+ text-align: center;
+
+ padding-left: 120px;
+
+ padding-top: 60px;
+
+}
+
+#page_title h2 {
+
+ font-size: 40px;
+
+}
+
+#gallery_section {
+    background-color: black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    clear: both;
+}
+
+.gallery_heading {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    margin-bottom: 30px;
+    font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+}
+
+#gallery_grid {
+    width: 90%;
+    max-width: 1600px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.gallery_item {
+    border: 2px solid white;
+    background-color: #1a1a1a;
+    transition: 0.3s;
+    overflow: hidden;
+}
+
+.gallery_item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px lightblue;
+}
+
+.gallery_item img {
+    display: block;
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+#contact_section {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 50px;
+    clear: both;
+}
+
+#contact_section h2 {
+    font-size: 30px;
+}
+
+#contact_section p {
+    font-size: 20px;
+}
+
+hr {
+    width: 500px;
+    border: 1px solid white;
+    margin: 20px auto;
+}
+
+input {
+    width: 400px;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+textarea {
+    width: 400px;
+    height: 100px;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+input[type="submit"] {
+    background-color: white;
+    color: black;
+    width: 200px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: lightblue;
+}
