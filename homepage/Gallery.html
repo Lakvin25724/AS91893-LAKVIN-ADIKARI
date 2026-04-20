@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gallery | HĪ IKA PĀHI</title>
     <link rel="stylesheet" href="ex.css">
@@ -12,7 +13,7 @@
 
         <header>
             <div id="logo">
-                <img src="Kiwi.jpg" alt="Kiwi Fishing Logo">
+                <img src="kiwi.jpg" alt="Kiwi Fishing Logo">
             </div>
             <div id="page_title">
                 <h1>Gallery</h1>
@@ -23,82 +24,96 @@
             <ul>
                 <li><a href="home.html">Home</a></li>
                 <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="contact.html">contact</a></li>
+                <li><a href="contact.html">Contact</a></li>
 
             </ul>
         </nav>
 
        <section id="gallery_section">
-    <h2 class="gallery_heading">Gallery</h2>
-    <div id="gallery_grid">
-        <div class="gallery_item"><img src="takapuna.jpg" alt="fish 1"></div>
-        <div class="gallery_item"><img src="torpedo.jpg" alt="fish 2"></div>
-        <div class="gallery_item"><img src="murray.jpg" alt="fish 3"></div>
-        <div class="gallery_item"><img src="birkinhead.jpg" alt="fish 4"></div>
-        <div class="gallery_item"><img src="longbay.jpg" alt="fish 5"></div>
-        <div class="gallery_item"><img src="fish6.jpg" alt="fish 6"></div>
-        <div class="gallery_item"><img src="fish7.jpg" alt="fish 7"></div>
-        <div class="gallery_item"><img src="fish8.jpg" alt="fish 8"></div>
+        <div class="gallery_item">
+  <a href="takapuna.jpg" data-fancybox="gallery" data-caption="Takapuna Beach">
+    <img src="takapuna.jpg" alt="Takapuna fishing spot">
+    <div class="overlay">Takapuna</div>
+  </a>
+</div>
+        <div class="gallery_item">
+  <a href="Kauri.jpg" data-fancybox="gallery" data-caption="Kauri Point">
+    <img src="Kauri.jpg" alt=" fishing spot">
+    <div class="overlay">Kauri Point</div>
+  </a>
+</div><div class="gallery_item">
+  <a href="meolar.jpg" data-fancybox="gallery" data-caption="Meola Reef">
+    <img src="meolar.jpg" alt="fishing spot">
+    <div class="overlay">Meola Reef</div>
+  </a>
+</div><div class="gallery_item">
+  <a href="north.jpg" data-fancybox="gallery" data-caption="North Head">
+    <img src="north.jpg" alt="fishing spot">
+    <div class="overlay">North Head</div>
+  </a>
+</div><div class="gallery_item">
+  <a href="waiheke.jpg" data-fancybox="gallery" data-caption="Waiheke Island">
+    <img src="waiheke.jpg" alt="fishing spot">
+    <div class="overlay">Waiheke Island</div>
+  </a>
+</div><div class="gallery_item">
+  <a href="okahubw.jpg" data-fancybox="gallery" data-caption="Okahu Bay Wharf">
+    <img src="okahubw.jpg" alt="fishing spot">
+    <div class="overlay">Okahu Bay Wharf</div>
+  </a>
+</div><div class="gallery_item">
+  <a href="blackr.jpg" data-fancybox="gallery" data-caption="Black Rocks">
+    <img src="blackr.jpg" alt="fishing spot">
+    <div class="overlay">Black Rocks</div>
+  </a>
+</div><div class="gallery_item">
+  <a href="cornwallis.jpg" data-fancybox="gallery" data-caption="Cornwallis Wharf">
+    <img src="cornwallis.jpg" alt="fishing spot">
+    <div class="overlay">Cornwallis Wharf</div>
+  </a>
+</div>
     </div>
 </section>
 
-        <footer>
-            <div id="queenstown_links">
-                <h3>Fishing Links</h3>
-                <ul>
-                    <li><a href="#">Fishing NZ Website</a></li>
-                    <li><a href="#">100% Pure NZ</a></li>
-                    <li><a href="#">Wikipedia Fishing NZ</a></li>
-                    <li><a href="#">MetService Weather</a></li>
-                </ul>
-            </div>
+<footer>
 
-            <div id="menu">
-                <h4>Site Menu</h4>
-                <ul>
-                    <li><a href="home.html">Home</a></li>
-                    <li><a href="contact.html">contact</a></li>
-                    <li><a href="gallery.html">Gallery</a></li>
-                </ul>
-            </div>
-
-            <div id="socials">
-                <h4>Our Socials</h4>
-                <ul>
-                    <li><a href="#"><img src="insta.jpg" alt="Instagram"></a></li>
-                    <li><a href="#"><img src="facebook.jpg" alt="Facebook"></a></li>
-                    <li><a href="#"><img src="tiktok.jpg" alt="TikTok"></a></li>
-                    <li><a href="#"><img src="mess.jpg" alt="Messenger"></a></li>
-                </ul>
-            </div>
-        </footer>
-
-
-<script>
-    // Initialise Fancybox with simple options
-    Fancybox.bind("[data-fancybox='gallery']", {
-        Thumbs: {
-            type: "classic",       // show thumbnail strip
-        },
-        Toolbar: {
-            display: {
-                left: [],
-                middle: [],
-                right: ["close"],
-            },
-        },
-        Images: {
-            zoom: false,           // keep it simple for demo
-        },
-    });
-</script>
+    <div id="queenstown_links">
+      <h3>Fishing Links</h3>
+      <ul>
+        <li><a href="https://www.fishing.net.nz/premium/?display=login&returnURL=https%3A%2F%2Fwww%2Efishing%2Enet%2Enz%2Fpremium%2F">Fishing NZ Website</a></li>
+        <li><a href="https://www.fishing.net.nz/fishing-destinations/new-zealand/auckland-hauraki-gulf/fishing-on-auckland-s-north-shore/">100% Pure NZ</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Special:Search?search=Fishing+nz&go=Go&ns0=1">Wikipedia Fishing NZ</a></li>
+        <li><a href="https://www.metservice.com/towns-cities/regions/auckland/locations/north-shore">MetService Weather</a></li>
+      </ul>
     </div>
 
+    <div id="menu">
+      <h4>Site Menu</h4>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+
+    <div id="socials">
+      <h4>Our Socials</h4>
+      <ul>
+        <li><a href="#"><img src="insta.jpg" alt="Instagram"></a></li>
+        <li><a href="#"><img src="facebook.jpg" alt="Facebook"></a></li>
+        <li><a href="#"><img src="mess.jpg" alt="messenger"></a></li>
+        <li><a href="#"><img src="tiktok.jpg" alt="tiktok"></a></li>
+      </ul>
+    </div>
+
+  </footer> 
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
+
+<script>
+Fancybox.bind("[data-fancybox='gallery']", {});
+</script>
+    </div>
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
 </body>
-</html>
-<div class="gallery-item">
-  <img src="images/pier.jpg" alt="Pier">
-  <div class="overlay">
-    <p>Wooden pier stretching into the ocean.</p>
   </div>
 </div>
